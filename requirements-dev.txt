@@ -1,0 +1,17 @@
+# =========================
+# Development requirements
+# =========================
+
+# Import production dependencies
+-r requirements.txt
+
+# Testing
+pytest==7.4.4
+pytest-asyncio==0.23.3
+
+# Linting & formatting
+ruff==0.1.15
+black==23.12.1
+
+# Debug / tooling (optional)
+ipython==8.18.1
